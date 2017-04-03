@@ -1,0 +1,16 @@
+{
+	"Type": "Cayad",
+	"Form": 3,
+	"Awareness": 3,
+	"Essence": 2,
+	"Movement": 5,
+	"Melee": 3,
+	"Armor": 1,
+	"Ranged": 1,
+	"skillPoints": 6,
+	"attributePoints": 4,
+	"renown": 34,
+	"paths": 0,
+	"weaponLeft": 10,
+	"weaponRight": 10
+}

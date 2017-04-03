@@ -1,0 +1,22 @@
+[{
+		"name": "Primary Path",
+		"bonusStat": "None",
+		"bonusNumber": 0,
+		"primaryStat": "Essence"
+	}, 
+		{
+		"name": "Blood Magic",
+		"bonusStat": "EP",
+		"bonusNumber": 1,
+		"primaryStat": "Essence"
+	}, {
+		"name": "Melee",
+		"bonusStat": "Melee",
+		"bonusNumber": 1,
+		"primaryStat": "Form"
+	}, {
+		"name": "Ranged",
+		"bonusStat": "Ranged",
+		"bonusNumber": 1,
+		"primaryStat": "Awareness"
+}]

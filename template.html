@@ -1,0 +1,24 @@
+<script id="character" type="text/template">
+	<div class="cardLayout">
+		<div class="cardBackground">
+			<div class="raceName {{cardTop}}">{{raceName}}</div>
+			<div class="{{cardArt}}">
+				<div class="cardContent characterText">
+					<div class="textBackground">
+						{{text}}
+					</div>
+				</div>
+			</div>
+			<div class="{{cardBottom}}">&nbsp;</div>
+			<div class="row center grey">
+				<!-- <input class="myButton" type="submit" value="Read More" id="{{readMore}}" /> -->
+				<input class="{{myButton}}" type="submit" {{disabled}} value="Create" onClick="window.location.href='card_creator.html'" />
+			</div>
+		</div>
+	</div>
+</script>
+
+
+
+<!-- Original Line 
+<input class="myButton" type="submit" {{disabled}} value="Create" id="{{create}}" /> -->

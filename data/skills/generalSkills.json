@@ -1,0 +1,105 @@
+[{
+	"name": "Climb",
+	"description": "Move: +0 EP | Ignore movement penalty when moving up hills or rock faces.",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 4,
+	"costToLearn": 1
+}, {
+	"name": "Defensive Stance",
+	"description": "Defense: Passive | Character adds 1 to defense skill when in melee combat.",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Awareness",
+	"minimumAttributeNumber1": 4,
+	"costToLearn": 1
+}, {
+	"name": "Discipline of the Warrior",
+	"description": "Resistance Test: +1 EP | When a character with this skill must make either a Form or Essence test, he may spend 1 EP to use either attribute.",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Essence",
+	"minimumAttributeNumber1": 3,
+	"costToLearn": 1
+}, {
+	"name": "Melee Expert",
+	"description": "Combat: +0 EP | Improve a characters Melee Skill TN by [X]. X is Rank.",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 3,
+	"costToLearn": 2
+}, {
+	"name": "Melee Specialization [Weapon]",
+	"description": "Combat: +0 EP | Reduce the EP cost of a weapon by 1 EP per rank purchased. Minimum EP cannot be reduced to less than 1.",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 5,
+	"costToLearn": 1
+}, {
+	"name": "Ranged Expert",
+	"description": "Combat: +0 EP | Improve a characters Ranged Skill TN by [X]. X is Rank.",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Awareness",
+	"minimumAttributeNumber1": 3,
+	"costToLearn": 2
+}, {
+	"name": "Savage Instinct",
+	"description": "Resistance Test: Passive | When this character must make either a Form or Awareness test, he may spend use either attribute.",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 3,
+	"costToLearn": 1
+}, {
+	"name": "Seize the Moment",
+	"description": "Charge: +2 EP | Re-roll all attack charge attack dice. Must be spent before the attack roll.",
+	"epCost": 2,
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 5,
+	"costToLearn": 2
+}, {
+	"name": "Spiritual Attunement",
+	"description": "Resistance Test: +0 EP | When this character must make either an Awareness or Essence test, he may spend 1 EP to use either attribute.",
+	"epCost": 1,
+	"Updkeep": "No",
+	"minimumAttribute1": "Awareness",
+	"minimumAttributeNumber1": 3,
+	"costToLearn": 1
+}, {
+	"name": "Step Between the Raindrops",
+	"description": "D",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Awareness",
+	"minimumAttributeNumber1": 4,
+	"costToLearn": 1
+}, {
+	"name": "Swim",
+	"description": "Defense: +0 EP | Add 1 to Defense when targeted with a Ranged Attack.",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Awareness",
+	"minimumAttributeNumber1": 3,
+	"costToLearn": 1
+}, {
+	"name": "Tactics [RACE]",
+	"description": "Defense: +0 EP | Add +1 to Defense while in melee combat with this [RACE]. Race must be determined when the skill is purchased. This skill may be purchase multiple times, but never for the same [RACE].",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 2,
+	"costToLearn": 3
+}, {
+	"name": "Understand Your Enemy",
+	"description": "Melee: +0 EP |Adds +1 to TN while in melee combat with [RACE]. The race must be determined when the skill is purchased. This skill may be purchase multiple times, but never for the same [RACE].",
+	"epCost": "Passive",
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 3,
+	"costToLearn": 2
+}]

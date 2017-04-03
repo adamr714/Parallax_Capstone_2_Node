@@ -1,0 +1,766 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"info",
+				"infoCard"
+			],
+			[
+				"chara",
+				"characterCards"
+			],
+			[
+				"char",
+				"characterCards"
+			],
+			[
+				"rac",
+				"raceChoice"
+			],
+			[
+				"race",
+				"raceName"
+			],
+			[
+				"card",
+				"cardBackground"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ch",
+				"characterText"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"backgou",
+				"background-size"
+			],
+			[
+				"ca",
+				"cardBackground"
+			],
+			[
+				"BACK",
+				"background-image"
+			],
+			[
+				"col",
+				"col-8"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bck",
+				"background-color"
+			],
+			[
+				"pre",
+				"previousPage"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"thm",
+				"Thumbnail"
+			],
+			[
+				"usr",
+				"userInput"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"resu",
+				"results"
+			],
+			[
+				"non",
+				"cnt-noq\tcontent: no-open-quote;"
+			],
+			[
+				"sear",
+				"js-search-results"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"correc",
+				"correctAnswer"
+			],
+			[
+				"quiz",
+				"quizScore"
+			],
+			[
+				"hin",
+				"hintsUsed"
+			],
+			[
+				"corr",
+				"correctAnswers"
+			],
+			[
+				"curre",
+				"currentQuestion"
+			],
+			[
+				"hintCl",
+				"hintClueBox"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"corre",
+				"correctAnswer"
+			],
+			[
+				"hi",
+				"hintsUsed"
+			],
+			[
+				"s",
+				"score"
+			],
+			[
+				"Cu",
+				"currentQuestion"
+			],
+			[
+				"us",
+				"userAnswer"
+			],
+			[
+				"qui",
+				"quizParameters"
+			],
+			[
+				"cu",
+				"currentQuestion"
+			],
+			[
+				"qu",
+				"quiz"
+			],
+			[
+				"item",
+				"itemsHTML"
+			],
+			[
+				"answ",
+				"answer1"
+			],
+			[
+				"answer",
+				"answer1"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"cor",
+				"correctAnswer"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"mag",
+				"margin-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ite",
+				"itemsHTML"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"Ana",
+				"analyzer"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"M",
+				"Minotaur_Empty"
+			],
+			[
+				"character",
+				"character_name"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"crea",
+				"createLongRange"
+			],
+			[
+				"lon",
+				"longRanged"
+			],
+			[
+				"Lon",
+				"LongRange"
+			],
+			[
+				"lN",
+				"lName"
+			],
+			[
+				"re",
+				"renown"
+			],
+			[
+				"creat",
+				"createWeapon"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"html",
+				"html5"
+			],
+			[
+				"h",
+				"html5"
+			],
+			[
+				"ge",
+				"getStudentReport"
+			],
+			[
+				"st",
+				"students"
+			],
+			[
+				"c",
+				"col-3"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"sig",
+				"Signup"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"i",
+				"input\tTag"
+			],
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"Mar",
+				"margin"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ita",
+				"italic"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"b",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"a",
+				"ANF: New File"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/adamr714/Downloads/index (2).html",
+		"/Users/adamr714/Desktop/projects/Capstone_Parallax/index.html",
+		"/Users/adamr714/Desktop/projects/Capstone_Parallax/css/float-grid.css",
+		"/Users/adamr714/Desktop/projects/Capstone_Parallax/css/narrow.css",
+		"/Users/adamr714/Desktop/projects/Capstone_Parallax/css/medium.css",
+		"/Users/adamr714/Desktop/projects/Capstone_Parallax/css/wide.css",
+		"/Users/adamr714/Desktop/projects/Capstone_Parallax/template.html",
+		"/Users/adamr714/Desktop/projects/quiz_parallax/app.js",
+		"/Users/adamr714/Desktop/projects/Capstone Parallax/css/main.css",
+		"/Users/adamr714/Desktop/projects/Parallax/index.html",
+		"/Users/adamr714/Desktop/test.html",
+		"/Users/adamr714/Desktop/projects/Parallax/index2.html",
+		"/Users/adamr714/Desktop/projects/YouTube/main.css",
+		"/Users/adamr714/Desktop/projects/YouTube/float-grid.css",
+		"/Users/adamr714/Desktop/projects/YouTube/index.html",
+		"/Users/adamr714/Desktop/projects/quiz_parallax/main.css",
+		"/Users/adamr714/Desktop/projects/Capstone Parallax/css/float-grid.css",
+		"/Users/adamr714/Desktop/projects/quiz_parallax/index.html",
+		"/Users/adamr714/Desktop/Notes_Thinkful_Prep",
+		"/Users/adamr714/Desktop/projects/Parallax/css/main.css",
+		"/Users/adamr714/Desktop/projects/Parallax/js/character.js",
+		"/Users/adamr714/Desktop/projects/YouTube/app.js",
+		"/Users/adamr714/Desktop/projects/Capstone_Parallax",
+		"/Users/adamr714/Downloads/thinkful-youtube-api-challenge-master/js/app.js",
+		"/Users/adamr714/Downloads/thinkful-youtube-api-challenge-master/css/style.css",
+		"/Users/adamr714/Downloads/thinkful-youtube-api-challenge-master/index.html",
+		"/Users/adamr714/Downloads/thinkful-youtube-api-challenge-master.zip",
+		"/Users/adamr714/Desktop/projects/shopping list/app.js",
+		"/Users/adamr714/Desktop/projects/YouTube/apiKey",
+		"/Users/adamr714/Desktop/projects/responsiver_v2/css/float-grid.css",
+		"/Users/adamr714/Desktop/projects/responsiver_v2/css/main.css",
+		"/Users/adamr714/Desktop/projects/responsiver_v2/index.html",
+		"/Users/adamr714/Desktop/projects/shopping list/main.css",
+		"/Users/adamr714/Desktop/projects/shopping list/index.html",
+		"/Users/adamr714/Desktop/projects/about-me/Notes_Thinkful_Prep",
+		"/Users/adamr714/Desktop/projects/seperated-shopping-list/index.js",
+		"/Users/adamr714/Desktop/projects/seperated-shopping-list/index.html",
+		"/Users/adamr714/Desktop/projects/text_analyzer_2/main.css",
+		"/Users/adamr714/Desktop/projects/text_analyzer_2/index.html",
+		"/Users/adamr714/Desktop/projects/shopping list/README.md",
+		"/Users/adamr714/Desktop/projects/text analyzer/index.html",
+		"/Users/adamr714/Desktop/projects/about-me/index.html",
+		"/Users/adamr714/Desktop/projects/text analyzer/js/app.js",
+		"/Users/adamr714/Desktop/projects/text analyzer/css/main.css",
+		"/Users/adamr714/Desktop/projects/fizzbuzz_jQuery/js/app.js",
+		"/Users/adamr714/Desktop/projects/fizzbuzz_jQuery/index.html",
+		"/Users/adamr714/Desktop/projects/Parallax/css/main2.css",
+		"/Users/adamr714/Desktop/projects/Parallax/css/float-grid.css",
+		"/Users/adamr714/Desktop/projects/forms/index.html",
+		"/Users/adamr714/Desktop/projects/resume_v2/progress_bar.css",
+		"/Users/adamr714/Desktop/projects/resume_v2/main.css",
+		"/Users/adamr714/Desktop/projects/resume_v2/index.html",
+		"/Users/adamr714/Desktop/projects/star-wars-v2/css/float-grid.css",
+		"/Users/adamr714/Desktop/projects/star-wars-v2/css/main.css",
+		"/Users/adamr714/Desktop/projects/star-wars-v2/index.html",
+		"/Users/adamr714/Desktop/projects/analogsea/css/main.css",
+		"/Users/adamr714/Desktop/projects/star-wars-v2/cssfloat-grid.css",
+		"/Users/adamr714/Desktop/projects/analogsea/index.html",
+		"/Users/adamr714/Desktop/projects/gregs_list_v2/index.html",
+		"/Users/adamr714/Desktop/projects/gregs_list_v2/css/main.css",
+		"/Users/adamr714/Desktop/projects/gregs_list_v2/images/magnifying-glass.png",
+		"/Users/adamr714/Desktop/projects/CSS_Layout_1_18/css_layout_exercises_starter_files/position-exercise.html",
+		"/Users/adamr714/Desktop/projects/CSS_Layout_1_18/css_layout_exercises_starter_files/styles/position-page.css",
+		"/Users/adamr714/Desktop/projects/CSS_Layout_1_18/css_layout_exercises_starter_files/display-exercise.html",
+		"/Users/adamr714/Desktop/projects/CSS_Layout_1_18/css_layout_exercises_starter_files/styles/display-page.css",
+		"/Users/adamr714/Desktop/main.css",
+		"/Users/adamr714/Desktop/progress_bar.html",
+		"/Users/adamr714/Desktop/projects/responsive-grid-example-and-challenge-starter-files-master/css/float-grid.css",
+		"/Users/adamr714/Desktop/projects/students/index.html",
+		"/Users/adamr714/Desktop/projects/students/css/style.css",
+		"/Users/adamr714/Desktop/projects/students/js/student_report.js",
+		"/Users/adamr714/Desktop/projects/Coffee_House/css/main.css",
+		"/Users/adamr714/Desktop/projects/Coffee House/css/float-grid.css",
+		"/Users/adamr714/Desktop/projects/Coffee_House/name.js",
+		"/Users/adamr714/Desktop/projects/Coffee_House/index.html",
+		"/Users/adamr714/Desktop/projects/Object Notes.js",
+		"/Users/adamr714/Desktop/projects/gregs_list/index.html",
+		"/Users/adamr714/Desktop/quiz.js",
+		"/Users/adamr714/Desktop/projects/students/js/students.js",
+		"/Users/adamr714/Desktop/projects/hello-world-js/app.js",
+		"/Users/adamr714/Desktop/projects/hello-world-js/index.html",
+		"/Users/adamr714/Desktop/projects/star-wars-responsive-challenge-starter-files-master/css/main.css",
+		"/Users/adamr714/Desktop/projects/star-wars-responsive-challenge-starter-files-master/css/float-grid.css",
+		"/Users/adamr714/Desktop/projects/star-wars-responsive-challenge-starter-files-master/index.html",
+		"/Users/adamr714/Desktop/projects/forms/css/main.css",
+		"/Users/adamr714/Desktop/projects/responsive-grid-example-and-challenge-starter-files-master/css/main.css",
+		"/Users/adamr714/Desktop/projects/responsive-grid-example-and-challenge-starter-files-master/index.html",
+		"/Users/adamr714/Desktop/forms_example.html",
+		"/Users/adamr714/Desktop/projects/gregs_list/indexl.html",
+		"/Users/adamr714/Desktop/projects/gregs_list/css/main.css",
+		"/Users/adamr714/Desktop/form_example.html",
+		"/Users/adamr714/Desktop/projects/css_layout_exercises_starter_files/styles/position-page.css",
+		"/Users/adamr714/Desktop/projects/css_layout_exercises_starter_files/position-exercise.html",
+		"/Users/adamr714/Desktop/Position Property Notes",
+		"/Users/adamr714/Desktop/projects/css_layout_exercises_starter_files/display-exercise.html",
+		"/Users/adamr714/Desktop/projects/css_layout_exercises_starter_files/styles/display-page.css",
+		"/Users/adamr714/Desktop/projects/about-me/test.html",
+		"/Users/adamr714/Desktop/projects/about-me/main.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"displayCurrentQuestion",
+			"currentQuestion",
+			"currentQusetion",
+			"characterText",
+			"chartext",
+			"height",
+			"button",
+			"hint",
+			"toggle",
+			"intro",
+			"buildTheHtmlOutput",
+			"currentQuestion",
+			"quiz.state",
+			"dis",
+			"test",
+			"1000",
+			"11000",
+			"h2",
+			"quiz",
+			"p {",
+			"hidden",
+			"quizParts",
+			"quiz.state",
+			"score",
+			"itemsHTML",
+			"items-html",
+			"shopping-list",
+			"checke",
+			"\n  ",
+			"switch",
+			"d.",
+			"c.",
+			"b.",
+			"a.",
+			"float",
+			"attacks",
+			"rightWeapon",
+			"leftWeapon",
+			"java",
+			"ja",
+			"jquery",
+			"jquer",
+			"div class=\"cle"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"results",
+			"<button class=\"\">",
+			"exhaustionPoints",
+			"rightHand",
+			"leftHand",
+			"javascript"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

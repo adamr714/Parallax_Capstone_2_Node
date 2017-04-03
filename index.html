@@ -1,0 +1,113 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- Responsive meta tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="Character Generator">
+	
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/float-grid.css">	
+	<!-- <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css" /> -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/characterCreation.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Cinzel:400,900" rel="stylesheet">
+
+	
+
+	<title>Parallax Character Generator</title>
+</head>
+
+<body>
+	<header>
+		<div class="row">
+
+			<div class="col-2 info hidden" id="info">
+				<img src="img/info_icon.png">
+			</div>
+			
+			<div class="col-8">	
+				<h1>Parllax Character Generator</h1>
+			</div>
+
+
+		</div>
+	</header>
+
+	<main>
+
+	<div class="intro" id="intro">
+		<div class="row">	
+			<div class="col-12 left">
+				<p class="white">Welcome to the character creator for <a href="http://parallaxminiatures.com/" target="_blank">Parallax: Miniatures</a> </p>
+
+				<p class="white">From here you will be able to create your character from them list below. Please click on the <span class="inlineButton">create</span> to make the character of your choice. </p>
+
+				<p class="white">Each race has positives and negatives, so feel free to create, test and then create again!</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<button class="hide" id="hide">Hide</button>
+			</div>
+		</div>
+
+
+	</div>
+
+		
+		<div id="raceSelector">	
+			<div class="row" id="characterCardsContainer"></div>
+		</div>
+		
+		<div class="hidden" id="characterCreator">
+			<div class="row">
+				<div class="col-12">
+					<h2>Cayad Creator</h2>
+				</div>				
+			</div>	
+
+			<div class="row">
+				<div class="col-4">
+					<div class="form">
+						<input id="#characterName" type="text" name="characterName" placeholder="Character Name">
+
+						<select id="#path"></select>
+
+						<select id="#form"></select>
+
+						<select id="#awareness"></select>
+
+						<select id="#essence"></select>
+
+						<select id="#weaponLeft"></select>
+
+						<select id="#weaponRight"></select>
+
+						<select id="#armor"></select>
+
+						<select id="#shield"></select>
+					</div>
+				</div>
+
+				<div class="col-8">
+					<img src="img/cayad_blank.png" class="cardCreation">
+					<div class="spacer"></div>
+
+					<img src="img/cayad_blank2.png" class="cardCreation">
+				</div>
+
+			</div>
+	</main>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<!-- <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script> -->
+	<script type="text/javascript" src="js/app.js"></script>	
+	<div id="templates"></div> <!--Loader -->
+
+</body>
+</html>

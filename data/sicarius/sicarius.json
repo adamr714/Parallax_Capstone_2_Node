@@ -1,0 +1,16 @@
+{
+	"Type": "Sicarius",
+	"Form": 0,
+	"Awareness": 0,
+	"Essence": 0,
+	"Movement": 6,
+	"Melee": 2,
+	"Armor": 0,
+	"Ranged": 3,
+	"skillPoints":7,
+	"attributePoints":3,
+	"renown": 34, 
+	"paths": 0,
+	"weaponLeft": 0,
+	"weaponRight": 0	
+}

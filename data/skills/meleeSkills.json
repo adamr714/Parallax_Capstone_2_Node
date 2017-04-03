@@ -1,0 +1,47 @@
+[{
+	"name": "Aggravated Wound",
+	"description": "Charge: +2 EP | Re-roll all attack charge attack dice. Must be spent before the attack roll.",
+	"epCost": 2,
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 5,
+	"costToLearn": 2
+}, 
+{
+	"name": "Battle Cry",
+	"description": "Charge: +2 EP | Re-roll all attack charge attack dice. Must be spent before the attack roll.",
+	"epCost": 2,
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 5,
+	"costToLearn": 2
+}, 
+{
+	"name": "Battle Frenzy",
+	"description": "Charge: +2 EP | Re-roll all attack charge attack dice. Must be spent before the attack roll.",
+	"epCost": 2,
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 5,
+	"costToLearn": 2
+}, 
+{
+	"name": "Balde Shield",
+	"description": "Charge: +2 EP | Re-roll all attack charge attack dice. Must be spent before the attack roll.",
+	"epCost": 2,
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 5,
+	"costToLearn": 2
+}, 
+{
+	"name": "Crippling Touch",
+	"description": "Charge: +2 EP | Re-roll all attack charge attack dice. Must be spent before the attack roll.",
+	"epCost": 2,
+	"Updkeep": "No",
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 5,
+	"costToLearn": 2
+} 
+
+]

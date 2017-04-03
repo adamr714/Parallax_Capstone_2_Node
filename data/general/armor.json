@@ -1,0 +1,20 @@
+[{
+	"name": "Choose Armor",
+	"armorValue": 0,
+	"renownArmor": 0,
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 1
+}, 
+	{
+	"name": "Leather",
+	"armorValue": 1,
+	"renownArmor": 3,
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 4
+}, {
+	"name": "Chain Mail",
+	"armorValue": 2,
+	"renownArmor": 6,
+	"minimumAttribute1": "Form",
+	"minimumAttributeNumber1": 5
+}]

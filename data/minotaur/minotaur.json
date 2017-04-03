@@ -1,0 +1,16 @@
+{
+	"Type": "Minotaur",
+	"Form": 0,
+	"Awareness": 0,
+	"Essence": 0,
+	"Movement": 3,
+	"Melee": 3,
+	"Armor": 2,
+	"Ranged": 2,
+	"skillPoints":6,
+	"attributePoints":4,
+	"renown": 42, 
+	"paths": 0,
+	"weaponLeft": 0,
+	"weaponRight": 0
+}

@@ -1,0 +1,16 @@
+{
+	"Type": "Devoid",
+	"Form": 0,
+	"Awareness": 0,
+	"Essence": 0,
+	"Movement": 4,
+	"Melee": 2,
+	"Armor": 0,
+	"Ranged": 2,
+	"skillPoints":8,
+	"attributePoints":5,
+	"renown": 16, 
+	"paths": 0,
+	"weaponLeft": 0,
+	"weaponRight": 0
+}

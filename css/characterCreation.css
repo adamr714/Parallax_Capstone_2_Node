@@ -1,0 +1,733 @@
+/*Character Creation Page*/
+
+html,
+body {
+    min-height: 100%
+}
+body {
+    background-image: linear-gradient(#023867, #f6f7f7);
+    box-sizing: border-box;
+    font-family: 'Cinzel', sans-serif;
+}
+
+    #info {
+    margin-top: .6em
+}
+
+i.fa.fa-home {
+    font-size: .7em;
+    margin-right: .2em;
+}
+
+h1 {
+    margin-top: 0.0em;
+}
+.characterCreationSidebar {
+    float: left;
+    /* width: 40%; */
+    
+    padding: 1em;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #000;
+    min-width: 28em;
+    max-width: 400px;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+.form {
+    float: left;
+    width: 66%
+}
+header {
+    background-color: black;
+    height: 50px;
+}
+.info {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+.myButton {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    width: 6em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 1em;
+}
+.attributePoints {
+    float: left;
+    margin-left: 1em;
+    color: white;
+    font-size: 1.2em;
+    width: 5.4em;
+    text-align: center;
+}
+.attributeNumber {
+    margin-top: .2em;
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid white;
+    height: 1.5em;
+    padding: 6.5px;
+    background-color: darkslategrey;
+}
+.attributePoints {
+    /* border: 1px solid white; */
+    
+    height: 1.5em;
+    padding: 6.5px;
+    margin-top: -.5em;
+}
+.skillPoints {
+    padding: .1em .5em;
+    color: white;
+    border: 1px solid white;
+    background-color: darkslategrey;
+    font-size: 1.3em;
+}
+.statContainer {
+    display: block;
+    position: absolute;
+    width: 65%;
+    margin-left: 14em;
+    height: 2.5em;
+    background-color: white;
+    margin-top: -10em;
+    background-image: linear-gradient(to right, #005A42, darkolivegreen, #005A42);
+}
+.statNumbers {
+    display: block;
+    position: absolute;
+    width: 65%;
+    margin-left: 14em;
+    height: 2.5em;
+    background-color: white;
+    margin-top: -7.8em;
+}
+.statsLabels {
+    float: left;
+    border: .5px solid #000;
+    width: 14.28%;
+    height: 2.1em;
+    text-align: center;
+    padding-top: .4em;
+    color: white;
+    font-size: 1.2em;
+    font-variant: small-caps;
+}
+.statsLabelsBlack {
+    float: left;
+    border: .5px solid #000;
+    width: 14.28%;
+    height: 2.1em;
+    text-align: center;
+    padding-top: .4em;
+    font-size: 1.2em;
+}
+.statPlaceholerNumbers {
+    float: left;
+    border: .5px solid #000;
+    width: 14.2%;
+    height: 2.1em;
+    text-align: center;
+    padding-top: .4em;
+    color: white;
+    font-size: 1.2em;
+    font-variant: small-caps;
+}
+.statsLabelNumbers {
+    float: left;
+    border: .5px solid #000;
+    width: 14.2%;
+    height: 2.1em;
+    text-align: center;
+    padding-top: .4em;
+    color: black;
+    font-size: 1.2em;
+    font-variant: small-caps;
+}
+.clear {
+    clear: both;
+    margin: 0px;
+}
+.spTitle {
+    padding-top: 0.8em;
+    padding-bottom: -0.5em;
+}
+.cardCreatorContent {
+    min-height: 13em;
+    background-size: cover;
+}
+.cardCreatorBackground {
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 8px #000;
+    background-color: darkslategrey;
+    min-width: 45em;
+    min-height: 25em;
+    background-image: url(../img/Parchement_BKG.png);
+    background-size: cover;
+    position: relative;
+}
+.creatorCayadArt {
+    background-image: url(../img/cayad_large_art.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-top: -2.6em;
+    margin-bottom: -2.5em;
+}
+.cardCreatorLayout {
+/*    float: left;
+    max-width: 44%;*/
+    margin-bottom: 1.5em;
+}
+#characterCreatorCard{
+    float: left; 
+    width: 100%; 
+    max-width: 400px;
+}
+
+.characterName {
+    font-size: 2.2em;
+    color: white;
+    font-weight: bold;
+    margin-top: -1.8em;
+    margin-left: .5em;
+    overflow: hidden;
+    min-height: 1em;
+    max-height: 1em;
+}
+/*Race Specific Art*/
+
+.creatorCayadTop {
+    background-image: url(../img/cayad_top.png);
+    background-size: 100% 100%;
+    height: 2.3em;
+}
+.creatorCayadBottom {
+    background-image: url(../img/cayad_bottom.png);
+    background-size: 100% 100%;
+    height: 4.3em;
+}
+.shield {
+    background-image: url(../img/cayad_shield.png);
+    height: 159px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 1em;
+    top: 1.2em;
+    width: 100%;
+    margin-left: q;
+    margin-left: 4em;
+}
+.renown {
+    position: absolute;
+    font-size: 4em;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: bold;
+    color: white;
+    top: .6em;
+    text-align: center;
+    width: 2.3em;
+    text-shadow: 2px 2px 8px #000;
+    padding-left: .3em;
+}
+.attributes {
+    position: absolute;
+    width: 60%;
+    /* background: white; */
+    
+    bottom: 7em;
+    left: 16.2em;
+}
+.formAttribute,
+.awarenessAttribute,
+.essenceAttribute {
+    float: left;
+    width: 33%;
+    /*    background: white;*/
+    
+    text-align: center;
+}
+.line {
+    width: 2px;
+    background-color: black;
+    height: 9em;
+    float: left;
+}
+.dice {
+    float: left;
+}
+.attribute.internal {
+    padding-left: 0.7em;
+}
+.weaponContainer {
+    display: block;
+    position: absolute;
+    width: 108%;
+    left: -2.2em;
+    height: 2.0em;
+    background-color: white;
+    top: 10em;
+    background-image: linear-gradient(to right, #005A42, darkolivegreen, #005A42);
+}
+.weaponLabels {
+    float: left;
+    border: .5px solid #000;
+    text-align: center;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    color: white;
+    font-size: 1.2em;
+    font-variant: small-caps;
+}
+.weaponSpecifics {
+    display: block;
+    position: absolute;
+    width: 108%;
+    left: -2.2em;
+    background-color: white;
+    top: 11.9em;
+}
+.secondWeaponSpecifics {
+    display: block;
+    position: absolute;
+    width: 108%;
+    left: -2.2em;
+    background-color: white;
+    top: 13.8em;
+}
+.black {
+    color: black;
+}
+.weapon {
+    width: 40%;
+    overflow: hidden;
+}
+.ep {
+    width: 10.00%;
+}
+.tr {
+    width: 20.00%;
+}
+.bonus {
+    width: 10.00%;
+}
+.type {
+    width: 20.00%;
+}
+.skillDescriptions {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 1em;
+    max-height: 95%;
+    -webkit-column-count: 2;
+    /* Chrome, Safari, Opera */
+    
+    -moz-column-count: 2;
+    /* Firefox */
+    
+    column-count: 2;
+    column-gap: 20px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+}
+/*Tabs*/
+
+div.tab {
+    float: left;
+    /* border: 1px solid #ccc; */
+    
+    background-color: darkslategrey;
+    width: 17%;
+    height: 300px;
+    clear: both;
+    margin-top: 1.0em;
+    /* font-family: 'Cinzel', sans-serif; */
+    
+    box-shadow: 0px 0px 0px #000;
+}
+/* Style the buttons inside the tab */
+
+div.tab button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 4px 7px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Cinzel', sans-serif;
+    font-size: .8em;
+}
+/* Change background color of buttons on hover */
+
+div.tab button:hover {
+    background-color: #ddd;
+}
+/* Create an active/current "tab button" class */
+
+div.tab button.active {
+    background-color: #fff;
+    color: #000;
+    /* border: 1px solid #fff; */
+}
+ul {
+    list-style: none;
+    display: inline-block;
+    margin-left: -2.5em;
+    line-height: 1.4em;
+    font-size: .9em;
+}
+.checkbox {
+    width: 2em;
+    height: 1em;
+    margin-left: -0.5em;
+    /* padding-left: 5em; */
+}
+/* Style the tab content */
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 82%;
+    border-left: none;
+    height: 313px;
+    margin-top: 1.0em;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: white;
+    overflow: auto;
+}
+
+@media all and (max-width: 1200px)  {
+    .characterCreationSidebar {
+        max-width: 514px;
+        margin-right: 2em;
+        margin-bottom: 1em;
+        /*      background-image: url(../img/cayad_large_art_sidebar.png);
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 0em;
+        background-position: 0px 211px;
+*/
+    }
+    .form {
+        width: 68%;
+        /*opacity: .8;*/
+    }
+    div.tab {
+        /*opacity: .8;*/
+    }
+    .cardCreatorContent {
+        min-height: 35em;
+        background-size: cover;
+    }
+    .tabcontent {
+        opacity: .8;
+    }
+    .cardCreatorBackground {
+        min-width: 28em;
+        min-height: 28em;
+        position: relative;
+    }
+    .statContainer {
+        width: 93%;
+        margin-left: 1em;
+        height: 2.5em;
+        margin-top: -31em;
+    }
+    .statNumbers {
+        width: 93%;
+        margin-left: 1em;
+        margin-top: -28.6em;
+    }
+    .attributes {
+        position: absolute;
+        width: 100%;
+        /* background: white; */
+        
+        bottom: 28em;
+        left: 0.2em;
+    }
+    .weaponContainer {
+        width: 93%;
+        left: 0.8em;
+        top: 10em;
+    }
+    .weaponSpecifics {
+        width: 93%;
+        left: 0.8em;
+        top: 11.9em;
+    }
+    .secondWeaponSpecifics {
+        width: 93%;
+        left: 0.8em;
+        top: 13.8em;
+    }
+    .shield {
+        margin-left: 14em;
+        top: -8.8em;
+    }
+}
+@media all and (max-width: 954px) {
+    h1 {
+        font-size: 1.6em;
+        margin-top: .3em;
+    }
+    .characterCreationSidebar {
+        max-width: 28em;
+        margin-right: 2em;
+        margin-bottom: 1em;
+        /*       background-image: url(../img/cayad_large_art_sidebar.png);
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 0em;
+        background-position: 0px 211px;*/
+    }
+    .form {
+        width: 68%;
+        /*opacity: .8;*/
+    }
+    div.tab {
+        /*opacity: .8;*/
+    }
+    .cardCreatorContent {
+        min-height: 35em;
+        background-size: cover;
+    }
+    .tabcontent {
+        opacity: .8;
+    }
+    .cardCreatorBackground {
+        min-width: 28em;
+        min-height: 28em;
+        position: relative;
+    }
+    .statContainer {
+        width: 93%;
+        margin-left: 1em;
+        height: 2.5em;
+        margin-top: -31em;
+    }
+    .statNumbers {
+        width: 93%;
+        margin-left: 1em;
+        margin-top: -28.6em;
+    }
+    .attributes {
+        position: absolute;
+        width: 100%;
+        /* background: white; */
+        
+        bottom: 28em;
+        left: 0.2em;
+    }
+    .weaponContainer {
+        width: 93%;
+        left: 0.8em;
+        top: 10em;
+    }
+    .weaponSpecifics {
+        width: 93%;
+        left: 0.8em;
+        top: 11.9em;
+    }
+    .secondWeaponSpecifics {
+        width: 93%;
+        left: 0.8em;
+        top: 13.8em;
+    }
+    .shield {
+        margin-left: 14em;
+        top: -8.8em;
+    }
+}
+
+
+
+@media all and (max-width: 504px) {
+    h1 {
+        font-size: 1em;
+        margin-top: .8em;
+    }
+
+    i.fa.fa-home {
+    font-size: .9em;
+    margin-right: .2em;
+}
+
+    .row {
+      max-width: 100%;
+      padding-left: 13px;
+      padding-right: 20px;
+      margin: 0 auto;
+    }
+    .creatorCayadArt {
+        background-image: none;
+        /* background-repeat:no-repeat; */
+        /* background-position: left bottom; */
+        
+        margin-top: -2.6em;
+        margin-bottom: -2.5em;
+    }
+    .characterCreationSidebar {
+        min-width: 17.2em;
+        /* max-width: 18em; */
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        background-image: url(../img/cayad_large_art_sidebar.png);
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 0em;
+        background-position: -44px 289px;
+        background-size: 160%;
+    }
+    .characterName {
+        font-size: 1.2em;
+        margin-top: -3.3em;
+    }
+    .form {
+        width: 68%;
+        opacity: .8;
+    }
+    div.tab {
+        opacity: .8;
+        width: 22%;
+    }
+    .tabcontent {
+        width: 78%;
+    }
+    .spTitle {
+        padding-top: 0.8em;
+        padding-bottom: -0.5em;
+        color: white;
+    }
+    .attributePoints {
+        float: left;
+        margin-left: 1em;
+        color: white;
+        font-size: 1.2em;
+        width: 5.4em;
+        text-align: center;
+    }
+    .attributeNumber {
+        margin-top: .2em;
+        text-align: center;
+        font-size: 2em;
+        border: 1px solid white;
+        height: 1.5em;
+        padding: 6.5px;
+        background-color: darkslategrey;
+        width: 2.8em;
+    }
+    .attributePoints {
+        /* border: 1px solid white; */
+        
+        height: 1.5em;
+        padding: 6.5px;
+        width: 3em;
+        margin-top: -.5em;
+        font-size: .8em;
+        margin-left: .4em;
+    }
+
+    .homeButton {
+        padding: 3px;
+        width: 5.6em;
+    }
+    .cardCreatorContent {
+        min-height: 26em;
+        background-size: cover;
+    }
+    .tabcontent {
+        opacity: .8;
+    }
+    .cardCreatorBackground {
+        min-width: 18em;
+        min-height: 28em;
+        position: relative;
+    }
+    .statContainer,
+    .statNumbers {
+        width: 93%;
+        margin-left: .8em;
+        margin-top: -28em;
+        font-size: .8em;
+    }
+    .statNumbers {
+        margin-top: -25.6em;
+    }
+
+    .attributes {
+        position: absolute;
+        width: 100%;
+        bottom: 19em;
+        left: -1.5em;
+        top: 7.2em;
+    }
+
+    .formAttribute,
+    .awarenessAttribute,
+    .essenceAttribute {
+        float: left;
+        width: 100%;
+        /*    background: white;*/
+        
+        text-align: center;
+        margin-top: .5em;
+    }
+    .dice {
+        float: left;
+        width: 20px;
+        margin-left: 1.2em;
+    }
+    .line {
+        display: none;
+    }
+    .weaponContainer {
+        width: 95%;
+        left: 2.8em;
+        top: 20em;
+        font-size: .7em;
+    }
+    .weaponSpecifics {
+        width: 95%;
+        left: 2.8em;
+        top: 21.6em;
+        font-size: .7em;
+    }
+    .secondWeaponSpecifics {
+        width: 95%;
+        left: 2.8em;
+        top: 23.5em;
+        font-size: .7em;
+    }
+    .renown {
+        font-size: 3.3em;
+        padding-left: em;
+        /* padding-top: .2em; */
+        margin-left: -0.1em;
+    }
+
+
+    .shield {
+        height: 159px;
+        margin-left: 1em;
+        top: .5em;
+        width: 58%;
+        margin-left: 5em;
+        background-size: 70%;
+    }
+}

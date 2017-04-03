@@ -1,0 +1,14 @@
+[
+	{
+		"name":"Melee",
+		"bonusStat": "Melee",
+		"bonusNumber": 1,
+		"primaryStat": "Form"
+	},
+	{
+		"name":"Pure Magic",
+		"bonusStat": "Essence",
+		"bonusNumber": 1,
+		"primaryStat": "Essence"
+	}
+]

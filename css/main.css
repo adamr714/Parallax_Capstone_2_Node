@@ -1,0 +1,428 @@
+html, body { 
+  min-height:100%
+}
+
+body {
+  background-image: linear-gradient(#023867, #f6f7f7);
+  box-sizing: border-box;
+  font-family: 'Cinzel', sans-serif;
+}
+
+h1 {
+  /* text-align: center; */
+  font-variant: small-caps;
+  font-size: 2.1em; 
+  color: white;
+  margin-bottom: .2em;
+  /* text-shadow: 2px 2px 4px #000000; */
+  margin-top: .3em;
+  margin-left: .5em;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  text-shadow: 2px 2px 8px #000;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+
+
+a {
+    color: lightcyan;
+    font-size: 1.3em;
+}
+
+.myButton {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    width: 6em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 1em;
+  }
+
+.white {
+    color: white;
+    line-height: 1.8em;
+}
+
+input.myButton {
+    cursor: pointer;
+}
+
+header .row {
+  max-width: 100%;
+ }
+
+header {
+    background-color: black;
+    height: 50px;
+}
+
+select {
+    width: 100%;
+    height: 2em;
+    margin-top: .5em;
+    background-color: white;
+}
+
+input {
+    width: 100%;
+    height: 2em;
+}
+
+.intro {
+  background-color: darkslategrey;
+  margin-top: 2em;
+  margin-left: 2em;
+  box-shadow: 2px 2px 8px #000;
+  margin-right: 2em;
+  position: relative;
+}
+
+.info {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.card {
+  background-color: grey;
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.cardBackground {
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 8px #000;
+    background-color: darkslategrey;
+    margin-top: 2em;
+    min-width:250px;
+    max-width: 440px;
+    background-image: url(../img/Parchement_BKG.png);
+    background-size:cover;
+    opacity: 1.0;
+}
+
+.homeButton {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    width: 6em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+
+.fakeButton {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    width: 6em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 1em;
+  }
+
+  .hide {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    width: 6em;
+    /* margin-top: .5em; */
+    margin-bottom: .5em;
+    font-size: 1em;
+    cursor: pointer;
+    /* position: absolute; */
+    /* bottom: .5em; */
+    /* right: .5em; */
+  }
+.inlineButton {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    color: black;
+}
+
+.left {
+  float: left;
+}
+
+.hidden {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.grey {
+    background-color: darkslategrey;
+}
+
+.spacer {
+  height: .5em;
+}
+
+/*Cayad Art*/
+.cayadTop {
+  background-image: url(../img/cayad_top.png);
+  background-size:100% 100%;
+}
+
+.cayadArt {
+  background-image: url(../img/cayad_art.png);
+  background-repeat:no-repeat; 
+  background-position: left bottom;
+  margin-top:-2.6em;
+  margin-bottom:-2.5em;
+}
+
+.cayadBottom {
+   background-image: url(../img/cayad_bottom.png);
+   background-size:100% 100%;
+   height:2.3em;
+   opacity:1
+}
+
+.cardLayout {
+  float: left;
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+/*Devoid Art*/
+.devoidTop {
+  background-image: url(../img/devoid_top.png);
+  background-size:100% 100%;
+}
+
+.devoidArt {
+  background-image: url(../img/devoid_art.png);
+  background-repeat:no-repeat; 
+  background-position: left bottom;
+  margin-top:-2.6em;
+  margin-bottom:-2.5em;
+}
+
+.devoidBottom {
+   background-image: url(../img/devoid_bottom.png);
+   background-size:100% 100%;
+   height:2.3em;
+   opacity:1
+}
+
+/*Hadjen Art*/
+.hadjenTop {
+  background-image: url(../img/hadjen_top.png);
+  background-size:100% 100%;
+}
+
+.hadjenArt {
+  background-image: url(../img/hadjen_art.png);
+  background-repeat:no-repeat; 
+  background-position: left bottom;
+  margin-top:-2.6em;
+  margin-bottom:-2.5em;
+}
+
+.hadjenBottom {
+   background-image: url(../img/hadjen_bottom.png);
+   background-size:100% 100%;
+   height:2.3em;
+   opacity:1
+}
+
+
+/*Minotaur Art*/
+.minotaurTop {
+  background-image: url(../img/minotaur_top.png);
+  background-size:100% 100%;
+}
+
+.minotaurArt {
+  background-image: url(../img/minotaur_art.png);
+  background-repeat:no-repeat; 
+  background-position: left bottom;
+  margin-top:-2.6em;
+  margin-bottom:-2.5em;
+}
+
+.minotaurBottom {
+   background-image: url(../img/minotaur_bottom.png);
+   background-size:100% 100%;
+   height:2.3em;
+   opacity:1
+}
+
+/*Sicarius Art*/
+.sicariusTop {
+  background-image: url(../img/sicarius_top.png);
+  background-size:100% 100%;
+}
+
+.sicariusArt {
+  background-image: url(../img/sicarius_art.png);
+  background-repeat:no-repeat; 
+  background-position: left bottom;
+  margin-top:-2.6em;
+  margin-bottom:-2.5em;
+}
+
+.sicariusBottom {
+   background-image: url(../img/sicarius_bottom.png);
+   background-size:100% 100%;
+   height:2.3em;
+   opacity:1
+}
+
+
+/*Tir Art*/
+.tirTop {
+  background-image: url(../img/tir_top.png);
+  background-size:100% 100%;
+}
+
+.tirArt {
+  background-image: url(../img/tir_art.png);
+  background-repeat:no-repeat; 
+  background-position: left bottom;
+  margin-top:-2.6em;
+  margin-bottom:-2.5em;
+}
+
+.tirBottom {
+   background-image: url(../img/tir_bottom.png);
+   background-size:100% 100%;
+   height:2.3em;
+   opacity:1
+}
+
+
+.cardContent {
+  min-height: 14em;
+  background-size: cover;
+}
+
+  .characterText {
+    font-size: 1em;
+    width: 100%%;
+    text-align: right;
+    font-weight: bold;
+    line-height: 1em;
+    margin-left:8em;
+    padding-top:2.6em;
+    padding-right:0.2em;
+  }
+
+  .raceName {
+    padding-top:0.1em;
+    padding-bottom:0.1em;
+    padding-right: 0.2em;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.col-10 {
+    float: left;
+}
+
+@media all and (min-width: 1201px) {
+  .cardLayout {
+    width: 33%;
+  }
+
+  .cardBackground {
+    max-width: 460px;
+  }
+  
+  .characterText {
+    margin-left: 13em;
+  } 
+}
+
+@media all and (max-width: 1200px) and (min-width: 901px) {
+  .cardLayout {
+    width: 33%;
+  } 
+}
+
+@media all and (max-width: 1199px) and (min-width: 728px) {
+  .cardLayout {
+    width: 50%;
+  }
+
+  .characterText {
+    margin-left: 12em;
+  }
+}
+
+@media all and (max-width: 727px) and (min-width: 505px) {
+  h1 {
+  font-size: 1.7em;
+  margin-top: .5em;
+  }
+}
+
+
+@media all and (max-width: 504px) and (min-width: 320px) {
+  .characterText {
+    font-size: .9em;
+  }
+
+  .cardLayout {
+    width: 100%;
+  }
+
+  .textBackground {
+  background-color: wheat;
+  opacity: .8;
+  /* padding-top: .5em; */
+  /* padding-bottom: .5em; */
+  padding: .5em;
+}
+
+
+  h1 {
+  font-size: 1.2em;
+  margin-top: .7em;
+  }
+
+  .characterText {
+    margin-left: 8em;
+  }
+
+  .raceName {
+    padding-bottom: 0.3em;
+  }  
+}
+
+
+
+

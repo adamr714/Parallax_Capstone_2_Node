@@ -1,0 +1,26 @@
+[
+	{
+		"name":"Melee",
+		"bonusStat": "Melee",
+		"bonusNumber": 1,
+		"primaryStat": "Form"
+	},
+	{
+		"name":"Ranged",
+		"bonusStat": "Ranged",
+		"bonusNumber": 1,
+		"primaryStat": "Awareness"
+	},
+	{
+		"name":"Subterfuge",
+		"bonusStat": "Defense",
+		"bonusNumber": 1,
+		"primaryStat": "Awareness"
+	},
+	{
+		"name":"Pure Magic",
+		"bonusStat": "Essence",
+		"bonusNumber": 1,
+		"primaryStat": "Essence"
+	}
+]
